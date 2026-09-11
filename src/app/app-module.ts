@@ -8,6 +8,8 @@ import { Footer } from './template/footer/footer';
 import { Home } from './components/home/home';
 import { Plataforma } from './components/generos/plataforma/plataforma';
 import { Rpg } from './components/generos/rpg/rpg';
+import { Terror } from './components/generos/terror/terror';
+import { Aventura } from './components/generos/aventura/aventura';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { Rpg } from './components/generos/rpg/rpg';
     Footer,
     Home,
     Plataforma,
-    Rpg
+    Rpg,
+    Terror,
+    Aventura
   ],
   imports: [
     BrowserModule,
