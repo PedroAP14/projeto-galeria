@@ -6,13 +6,17 @@ import { App } from './app';
 import { Header } from './template/header/header';
 import { Footer } from './template/footer/footer';
 import { Home } from './components/home/home';
+import { Plataforma } from './components/generos/plataforma/plataforma';
+import { Rpg } from './components/generos/rpg/rpg';
 
 @NgModule({
   declarations: [
     App,
     Header,
     Footer,
-    Home
+    Home,
+    Plataforma,
+    Rpg
   ],
   imports: [
     BrowserModule,
